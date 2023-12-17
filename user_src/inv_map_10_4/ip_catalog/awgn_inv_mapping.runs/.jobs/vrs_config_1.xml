@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="awgn_inv_mapping_bd_awgn_inv_mapping_1_0_synth_1" LaunchDir="D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_bd_awgn_inv_mapping_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="awgn_inv_mapping_0_synth_1" LaunchDir="D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="awgn_inv_mapping_bd_awgn_inv_mapping_1_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="awgn_inv_mapping_bd_awgn_inv_mapping_1_0_synth_1"/>
+		<Parent Id="awgn_inv_mapping_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

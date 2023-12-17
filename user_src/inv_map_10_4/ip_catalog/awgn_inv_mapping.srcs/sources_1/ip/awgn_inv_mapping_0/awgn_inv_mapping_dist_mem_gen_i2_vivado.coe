@@ -1,0 +1,2 @@
+  memory_initialization_radix = 16;
+  memory_initialization_vector = 180, 168, 15C, 154, 14E, 149, 145, 141, 13E, 13B, 139, 136, 134, 132, 130, 12E;

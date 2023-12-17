@@ -1,0 +1,2 @@
+  memory_initialization_radix = 16;
+  memory_initialization_vector = 1B7, 1A2, 198, 191, 18C, 188, 185, 182, 17F, 17D, 17A, 178, 177, 175, 173, 172;

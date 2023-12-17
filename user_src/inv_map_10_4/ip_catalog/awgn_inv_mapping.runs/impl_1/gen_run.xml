@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1589190971">
+  <File Type="OPT-HWDEF" Name="awgn_inv_mapping_bd_wrapper.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="awgn_inv_mapping_bd_wrapper_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="awgn_inv_mapping_bd_wrapper.dcp"/>
+  <File Type="BITSTR-BMM" Name="awgn_inv_mapping_bd_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="awgn_inv_mapping_bd_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="awgn_inv_mapping_bd_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="awgn_inv_mapping_bd_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="awgn_inv_mapping_bd_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="awgn_inv_mapping_bd_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="awgn_inv_mapping_bd_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="awgn_inv_mapping_bd_wrapper_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="awgn_inv_mapping_bd_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="awgn_inv_mapping_bd_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="awgn_inv_mapping_bd_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="awgn_inv_mapping_bd_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="awgn_inv_mapping_bd_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="awgn_inv_mapping_bd_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="awgn_inv_mapping_bd_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="awgn_inv_mapping_bd_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="awgn_inv_mapping_bd_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="awgn_inv_mapping_bd_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="awgn_inv_mapping_bd_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="awgn_inv_mapping_bd_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="awgn_inv_mapping_bd_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="awgn_inv_mapping_bd_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="awgn_inv_mapping_bd_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="awgn_inv_mapping_bd_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="awgn_inv_mapping_bd_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="awgn_inv_mapping_bd_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="awgn_inv_mapping_bd_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="awgn_inv_mapping_bd_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="awgn_inv_mapping_bd_wrapper.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="awgn_inv_mapping_bd_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="awgn_inv_mapping_bd_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="awgn_inv_mapping_bd_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="awgn_inv_mapping_bd_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="awgn_inv_mapping_bd_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="awgn_inv_mapping_bd_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="awgn_inv_mapping_bd_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="awgn_inv_mapping_bd_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="awgn_inv_mapping_bd_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="awgn_inv_mapping_bd_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="awgn_inv_mapping_bd_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="awgn_inv_mapping_bd_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="awgn_inv_mapping_bd_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="awgn_inv_mapping_bd_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="awgn_inv_mapping_bd_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="awgn_inv_mapping_bd_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="awgn_inv_mapping_bd_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="awgn_inv_mapping_bd_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="awgn_inv_mapping_bd_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="awgn_inv_mapping_bd_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="awgn_inv_mapping_bd_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="awgn_inv_mapping_bd_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="awgn_inv_mapping_bd_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="awgn_inv_mapping_bd_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="awgn_inv_mapping_bd_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="awgn_inv_mapping_bd_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="awgn_inv_mapping_bd_wrapper.nky"/>
+  <File Type="BG-BGN" Name="awgn_inv_mapping_bd_wrapper.bgn"/>
+  <File Type="BG-DRC" Name="awgn_inv_mapping_bd_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="awgn_inv_mapping_bd_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/awgn_inv_mapping_bd.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/awgn_inv_mapping_bd_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/hdl/awgn_inv_mapping_bd_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1589190524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sysgen/awgn_inv_mapping_mod.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/awgn_inv_mapping_mod.v"/>
+        <Attr Name="ImportTime" Val="1589190524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_blk_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_blk_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i10_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i11_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i12_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i13_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i14_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i15_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i16_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i17_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i18_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i19_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i2_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i20_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i21_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i22_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i23_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i24_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i25_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i26_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i27_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i28_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i29_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i3_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i30_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i31_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i32_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i33_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i34_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i35_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i36_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i37_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i38_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i39_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i4_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i40_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i41_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i42_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i43_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i44_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i45_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i46_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i47_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i48_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i49_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i5_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i50_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i51_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i52_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i53_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i54_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i55_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i56_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i57_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i58_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i59_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i6_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i60_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i61_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i7_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i8_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_c_shift_ram_v12_0_i9_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_dist_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_dist_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_dist_mem_gen_i2_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_dist_mem_gen_i3_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/awgn_inv_mapping_bd/ip/awgn_inv_mapping_bd_awgn_inv_mapping_1_0/awgn_inv_mapping_dist_mem_gen_i4_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_blk_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_blk_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i10_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i11_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i12_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i13_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i14_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i15_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i16_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i17_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i18_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i19_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i2_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i20_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i21_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i22_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i23_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i24_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i25_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i26_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i27_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i28_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i29_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i3_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i30_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i31_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i32_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i33_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i34_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i35_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i36_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i37_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i38_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i39_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i4_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i40_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i41_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i42_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i43_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i44_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i45_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i46_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i47_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i48_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i49_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i5_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i50_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i51_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i52_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i53_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i54_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i55_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i56_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i57_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i58_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i59_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i6_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i60_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i61_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i7_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i8_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_c_shift_ram_v12_0_i9_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_dist_mem_gen_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_dist_mem_gen_i1_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_dist_mem_gen_i2_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_dist_mem_gen_i3_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/awgn_inv_mapping_0/awgn_inv_mapping_dist_mem_gen_i4_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="awgn_inv_mapping_bd_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/sysgen/awgn_inv_mapping_clock.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/awgn_inv_mapping_clock.xdc"/>
+        <Attr Name="ImportTime" Val="1589190494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/sysgen/awgn_inv_mapping.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/awgn_inv_mapping.xdc"/>
+        <Attr Name="ImportTime" Val="1589190494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="awgn_inv_mapping_bd_awgn_inv_mapping_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="awgn_inv_mapping_0"/>
+</GenRun>

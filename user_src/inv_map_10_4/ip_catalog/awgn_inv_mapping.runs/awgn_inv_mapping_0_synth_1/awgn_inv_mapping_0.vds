@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 11 17:55:06 2020
+# Process ID: 8120
+# Current directory: D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_0_synth_1
+# Command line: vivado.exe -log awgn_inv_mapping_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source awgn_inv_mapping_0.tcl
+# Log file: D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_0_synth_1/awgn_inv_mapping_0.vds
+# Journal file: D:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source awgn_inv_mapping_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.runs/awgn_inv_mapping_0_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/10702201/channel_coding/CHANNEL/ZB/inv_map_10_4/ip_catalog/awgn_inv_mapping.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP awgn_inv_mapping_0, cache-ID = f905600f3cf7e9cc.
+INFO: [Common 17-206] Exiting Vivado at Mon May 11 17:55:17 2020...
